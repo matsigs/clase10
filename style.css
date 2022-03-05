@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+li {
+    list-style: none;
+} 
+
+a {
+    text-decoration: none;
+    color: #000000;}
+
+.wordone{
+    text-decoration: none;
+    text-transform:lowercase;
+    font-style: italic;}
+
+.nava{width: 100px;
+font-size: x-large;
+text-transform: uppercase;
+}
+}
+nav li{
+    display:block;
+    position:relative;}
+/* 
+aca abajo donde dice "nav li>ul" por defecto, tiene display:none, porque queremos que NO se muestre al principio, sin hacer HOVER
+*/
+nav li>ul{
+    display:none;
+    position: absolute;}
+/*
+aca abajo donde dice ".menus ul li:hover ul" significa que : el usuario está apoyando el mouse sobre el UL que está dentro del LI, entonces si se apoya el mouse, va a darle display block
+y si no se apoya, vuelve a display: none, como aparece arriba en la linea 17
+*/
+.menus ul li:hover ul{transition: .3s;
+    display: block;
+}
+.menus :hover{ color: lime;
+transition: .3s;
+display: block;
+}
+
+
+.menusa{display: block;
+    padding: 15px 20px;
+    color: black;font-family: Georgia, 'Times New Roman', Times, serif;
+text-decoration: none;
+text-transform: uppercase;
+}
+.menusa :hover{ color: lime;
+transition: .3s;}
+    
+
+.breve{
+    font-weight: bolder;
+    list-style: none;
+    text-align:justify;
+    margin-top: 3px;
+   font-style: italic;
+    font-size: large;
+    text-transform: uppercase;
+    color: rgb(56, 25, 230);
+    background-color: red;
+    border-style:solid ;
+display:inline-block;}
+
+.imagenfallada{
+    list-style-type: none;
+    width: 10rem;
+    border-style: solid;
+    
+}
+
+.imguno{
+    font-size: x-large;
+    color: blue;
+    border-color: blue;
+    background-color: black;
+    text-transform: uppercase;
+    font-size: medium;display: flex;
+    position: absolute;}
+    
+.imgdos{font-size: x-large;
+    color: blue;
+    border-color: blue;
+    background-color: black;
+    text-transform: uppercase;
+    font-size: medium;
+    display: flex;
+    position: absolute;}
+   
+.f_cam{width: 10rem;margin-top: 3rem;border-style: solid;}
+
+.f_acc{width: 10rem;border-style: solid;margin-top: 3rem}
+
+.f_arm{width: 10rem;border-style: solid;margin-top: 3rem}
+
+ .imgtres{font-size: x-large;
+    color: blue;
+    border-color: blue;
+    background-color: black;
+    text-transform: uppercase;
+    font-size: medium;display: flex;
+    position: absolute;}
+    
+.imgcuatro{
+    
+     font-size: x-large;
+    color: blue;
+    border-color: blue;
+    background-color: black;
+    text-transform: uppercase;
+    font-size: medium;display: flex;
+    position: absolute;}
+   
+
+
+.ventas{
+    font-size: x-large;
+    color: blue;
+    text-transform: uppercase;
+    text-decoration: underline;
+    display: flex;
+    position: relative;
+    left: 20rem;
+    bottom: 30rem;
+    
+    display: inline-block;
+    font-size: xx-large;}
+
+
+footer p{ color: forestgreen;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+    display: flex;
+    position: relative;
+    
+}
+
+footer div{
+    display: flex;
+    align-items: center;
+}
+
+.footerclass{background-color: aquamarine;}
+
+.main_titulo{font-weight: bold;
+    font-size: x-large;
+    color: black;
+    text-decoration: underline;
+    text-transform: uppercase;
+    display: flex;
+    position: relative;
+left: 22rem;
+top: 2rem;}
+
+
+
+
+.ac_ac p{font-weight: bold;
+    font-size: x-large;
+    color: black;
+    text-transform: uppercase;}
+
+ .acc_camping p{font-weight: bold;
+    font-size: x-large;
+    color: black;
+    text-transform: uppercase;}
+
+.acc_pesca p{font-weight: bold;
+    font-size: x-large;
+    color: black;
+    text-transform: uppercase;}
+
+.acc_armas p{font-weight: bold;
+    font-size: x-large;
+    color: black;
+text-transform: uppercase;}
+
+.header{
+    display: grid;
+	grid-template-columns: 200px 450px 500px;
+   }
+
+
+
+.wordone{position:relative;
+    margin-bottom: 4rem;
+    
+}
+    
+.video{display:flex;
+position: relative;
+width: 40rem;
+padding: 3rem;}
+
+
+
+
+    .makoimg{
+     position: relative;
+     left: 25rem;
+     bottom:10rem;
+     top: 26px;
+     padding: 5px;
+     width: 30rem;
+     border-style: solid;
+    margin: 2rem;}
+    
+
+.pone{display: flex;
+    font-size: x-large;
+ font-family: Georgia, 'Times New Roman', Times, serif;}
+.ptwo{display: flex;
+    font-size: x-large;
+font-family: Georgia, 'Times New Roman', Times, serif;}
+.finsta{display: flex;
+
+}
+.fcorreo{display: flex;
+    }
+
+.fface{display: flex;
+    }
+
+.ftel{display: flex;
+    }
+
+.famipic{display: flex;
+    position: relative;
+    left: 20rem;
+width: 30rem;
+bottom:30rem}
+
+
+.container_acc{background-image: url(https://images.pexels.com/photos/1590549/pexels-photo-1590549.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+height: 100%;
+background-repeat: no-repeat;
+background-size: cover;}
+
+body{background-image: url(https://images.pexels.com/photos/1590549/pexels-photo-1590549.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    height: 100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    overflow:auto;}
+
+.logoacc{display: flex;
+    display: inline-block;
+position: relative;
+left: 20rem;
+border-style: solid;
+margin: 0 auto;
+}
+
+.carritoacc{display: flex;
+position: relative;
+left: 40rem;
+bottom:14rem}
+
+
+
+.ac_ac{display: grid;
+grid-template-columns: auto auto;}
+
+.acc_camping{display: grid;
+grid-template-areas:"section section";
+grid-area: acc_camping;}
+
+
+
+
+
+.container{display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(240px,auto))
+    ;gap: 20px;
+padding: 20px;
+grid-auto-flow: dense;}
+
+
+
+.importante{color: red
+    ;
+font-size: xx-large;
+background-color: black;}
+
+.caña1{width: 280px;}
+
+.tramp{width: 297px;
+height: 170px;
+padding-left: 35px;}
+
+@media all and(min-width: 480px){}
+
+@media (min-width: 481px) and(max-width 768px) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+
+        
+    
+
+
+  
+
+
